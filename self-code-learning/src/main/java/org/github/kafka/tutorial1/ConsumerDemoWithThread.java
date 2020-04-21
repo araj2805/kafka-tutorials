@@ -38,7 +38,7 @@ public class ConsumerDemoWithThread {
         try {
             latch.await();
         } catch (InterruptedException e) {
-            logger.error("Application got interrupted : "+e);
+            logger.error("Application got interrupted : " + e);
         }finally {
             logger.info("Application is closing");
         }
